@@ -10,12 +10,12 @@ body {
 }
 
 header {
-  height: 105vh;
+  height: 87vh;
   width: 250px;
   background-color: #1A1C1F;
   text-align: center;
   padding: 8px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito",sans-serif;
   border-radius: 14px;
   border: 1.6px solid #ECECEC96;
   position: fixed;
@@ -45,7 +45,7 @@ header {
 
 nav {
   text-align: left;
-  margin-top: 1.5rem;
+  margin-top: 0.5rem;
 }
 nav ul {
   margin: 0;
@@ -53,7 +53,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.9rem;
   list-style: none;
 
 }
@@ -95,24 +95,43 @@ nav ul li i {
 .container-hero{
   padding: 0px;
   display: inline-flex;
-  gap: 20px;
+  gap: 15px;
+}
+.section-vision{
+  position: absolute;
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.6;
+  top: 250px;
 }
 .hero-text{
-  width: 50%;
+  width: 48%;
 }
-.hero-text h1 {
+.hero-text h1  {
+    position: relative;
+    display: bold;
     font-size: 42px;
+    font-family: "Ubuntu",sans-serif;
     margin-top: 0px;
     margin-bottom: 10px;
-    font-family: "Ubuntu" sans-serif;
     margin:  0px 0px 15px;
     color: #ffffff;
 }
+.container-hero .hero-text h1 span{
+  color: #ececec;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+}
+
 .hero-text h2{
    font-size: 24px;
     margin-top: 0px;
     margin-bottom: 10px;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto",sans-serif;
     margin:  0px 0px 10px;
     color:   #ffffff;
 
@@ -120,25 +139,28 @@ nav ul li i {
 
 .hero-text h3{
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 0px 0px 20px;
     color:  #ffffff;
-    font-family: "Roboto" sans-serif;
-    
-  
+    font-family: "Roboto",sans-serif;  
+}
+.container-hero .hero-text h3 span{
+  color: #ececec;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+  margin-left: 5px;
+
 }
 
-.hero-text span {
-    color: #ffffff;
-    font-weight: bold;
-}
+
  p {
     font-size: 16px;
     color:  #ECECEC96;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    font-family: "Roboto" sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Roboto",sans-serif;
     margin:  0px 0px 40px;
+    
 }
 
 .hero-buttons {
@@ -169,6 +191,7 @@ nav ul li i {
 .hero-social{
   display: flex;
   gap: 20px;
+  
 }
 .hero-social a{
     width: 40px;
@@ -183,29 +206,55 @@ nav ul li i {
     border: rgb(255, 255, 255,0.2);
     transition: all 0.3s ease; 
 }
-.hero-social i:hover {
+.hero-social a:hover {
     transform: translateY(-3px);
     color: #ffffff;
-    cursor: pointer;
+    
 } 
 .hero-image{
   width: 50%;
-
   
 }
 .hero-image img {
-    width: 320px;
-    height: 320px;
-    position: relative;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 90px;
     object-fit: cover;
     border-radius: 30px;
+} 
+ 
+.hero-vision{
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  position: absolute;
+  top: 120px;
+  left: 66%;
+  width: 30%;
+  height: 60%;
+  align-content: center;
+  border-radius: 30px;
+
 }
 
+.vision-bob{
+  position: absolute;
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  width: 15%;
+  height: 25%;
+  border-radius: 50%;
+  margin-left: 70px;
+}
+.bi-chevron-down{
+  font-size: 12px;
+  padding: 8px;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
 
-
-
-
-
-
-
-
+}
+.bi-chevron-down:hover{
+  background-color: #ececec;
+  color: #444444;
+}
