@@ -213,7 +213,8 @@ nav ul li i {
 } 
 .hero-image{
   width: 50%;
-  
+  height: 50%;
+  object-fit: cover;
 }
 .hero-image img {
     width: 300px;
@@ -224,16 +225,16 @@ nav ul li i {
     border-radius: 30px;
 } 
  
-.hero-vision{
-  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+.hero-vision {
   position: absolute;
-  top: 120px;
-  left: 66%;
+  top: 90px;        /* ← il monte complètement en haut */
+  left: 65.7%;
   width: 30%;
-  height: 60%;
-  align-content: center;
-  border-radius: 30px;
-
+  height: 65%;
+  background-color: color-mix(in srgb, #ffffff, transparent 90%);
+  border-radius: 10px;
+  z-index: 1;
+  align-items: center;
 }
 
 .vision-bob{
