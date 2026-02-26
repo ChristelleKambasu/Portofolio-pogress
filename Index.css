@@ -516,64 +516,49 @@ nav ul li i {
 
 }
 
-
-.stats-container {
-  max-width: 900px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
 .stats-container{
-  background: #232323;
-  height: 250px;
-  width: 87%;
-  display: flex;
-  padding: 50px;
-  justify-content: center;
-  gap: 20px;
+background: #232323;
+height: 200px;
+width: 87%;
+display: flex;
+padding: 50px;
+justify-content: center;
+gap: 30px;
 }
 .stat-card{
   background: #2c2c2c;
   padding-left: 40px 30px;
   border-radius: 15px;
   text-align: center;
-  width: 120px;
+  width: 300px;
   color: #ffffff;
+
 }
 .icon-stat{
   font-size: 20px;
+  margin-bottom: 0px;
   margin-top: 10px;
-  margin-bottom: 20px;
-  
+
 }
-.stat-card h2{
-  font-size: 38px;
-  font-family: "Ubuntu",sans-serif;
-  font-weight: 700;
-  margin: 10px;
-  color: #ececec;
-}
-.stat-card p{
-    color: #ececec;
-    font-size: 18px;
-    margin: 0;
-    font-weight: 500;
-    font-family: "Ubuntu",sans-serif;
-    opacity: 0.8;
-}
-  
-.meta-stat{
-  background-color: color-mix(in #ff7e, color percentage, color percentage);
-  color: #ececec;
-  width: 80px;
-  height: 80px;
+.icon-stat{
+  width: 80%;
+  height: 70px;
   border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 30px;
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  background: #2c2c2c;
+  margin-bottom: 10px;
+  line-height: 1;
+  font-family: "Ubuntu" sans-serif;
+ 
 }
 .meta-stat{
-  background-color:  rgb(255, 255, 255,0.2);
+  background-color: rgb(255, 255, 255,0.2);
+  color: white;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -581,6 +566,7 @@ nav ul li i {
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
+  color: #ffffff;
 }
 .emoji-stat{
   background-color: color-mix(in srgb, #ff7e00, transparent 90%);
@@ -592,9 +578,10 @@ nav ul li i {
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
+
 }
 .emoji-client{
-  background-color: color-mix(in srgb, #00c875, transparent 90%);
+  background-color: color-mix(in srgb, #00c875,transparent 90%);
   color: #00c875;
   width: 80px;
   height: 80px;
@@ -603,10 +590,10 @@ nav ul li i {
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
+
 }
 .client-stat{
-  background-color: color-mix(in srgb, #e83e8c, transparent 90%);
-  margin-right: 100px;
+  background-color: color-mix(in srgb, #e83e8c,transparent 90%);
   color: #e83e8c;
   width: 80px;
   height: 80px;
@@ -616,25 +603,18 @@ nav ul li i {
   justify-content: center;
   margin: 0 auto 20px;
 
-
 }
-                        
-.bi-check-circle-fill{
-  position:relative;
-  bottom: 50px;
-  left: 110px;
-  right: 80px;
-  justify-content: center;
-  border-radius: 55%;
-  font-size: 20px;
-  padding: 2px;
-  background-color: 2px solid;
-  background: #e6e2d9;
-  margin-top: 40px;
-  margin-left: 20px;
-
+.stat-card p{
+  font-size: 15.6px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  font-weight: 500;
+  color: #ececec;
 }
-
-
-
+.stat-card h2{
+  font-size: 35px;
+  font-family:"Ubuntu", sans-serif;
+  margin: 0;
+  font-weight: 500;
+}
 
