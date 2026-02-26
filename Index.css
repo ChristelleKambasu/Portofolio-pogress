@@ -90,20 +90,19 @@ nav ul li i {
 }
  main {
   margin-left: 280px;
-  padding: 30px;
+  padding: 10px;
 }
 
 .hero-section {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-
-  
+ 
 }
 .container-hero{
-  padding: 0px;
   display: inline-flex;
   gap: 15px;
+  
 }
 .section-vision{
   position: absolute;
@@ -168,7 +167,7 @@ nav ul li i {
     margin-bottom: 20px;
     font-family: "Roboto",sans-serif;
     margin:  0px 0px 40px;
-    
+  
 }
 
 .hero-buttons {
@@ -267,5 +266,355 @@ nav ul li i {
 .bi-chevron-down:hover{
   background-color: #ececec;
   color: #444444;
+}
+.all-container{
+ display: flex;
+ margin: 0;
+ 
+
+}
+
+
+.media-hero{
+  width: 40%;
+  height: 480px;
+  background:#232323;
+  border-radius: 2.5rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 120px;
+  margin: 25px;
+  padding: 30px; 
+   border-top: 3px solid #e6e2d9;
+
+}
+
+.media-divider{
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  padding: 10px;
+  
+}
+
+.media-img img {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255,255,255,0.2);
+  background: #ececec;
+}
+
+.media-divider h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  margin: 0px 0px  0px 8px;
+  white-space: nowrap;
+  color: #ececec;
+}
+
+.media-divider p {
+  color: #ececec;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+}
+
+.info-media{
+  background: rgb(255,255,255,0.07);
+  padding: 12px;
+  margin-left: auto;
+  margin-bottom: 16px;
+  color: #ececec;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+
+
+}
+.info-media{
+  display: flex;
+  width: 179px;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  border: 1px solid;
+  
+
+}
+.info-media i{
+  margin: 0;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #ececec;
+}
+.info-media:hover{
+  background-color: #e6e2d9;
+  color: #1A1C1F;
+
+}
+
+
+.about-hero {
+  width: 440px;
+  height:800px;
+  margin: 10px;
+  
+}
+.hero-button{
+  padding: 8px 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: 2px solid goldenrod;
+}
+.about-social {
+  font-size: 22px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 2rem;
+
+}
+.social{
+  font-size: 14px;
+  line-height: 22px;
+  color: #ececec;
+  margin-bottom: 0;
+  margin: 0px 0px 24px;
+  font-family: "Roboto", sans-serif;
+  gap: 20px;
+  
+}
+.social-about{
+  font-size: 14px;
+  line-height: 22px;
+  color: #ececec;
+  margin-bottom: 2rem;
+  margin: 0px 0px 24px;
+  font-family: "Roboto", sans-serif;
+
+
+}
+
+.hero-stat{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  max-width: 600px;
+  border-radius: 20px;
+  background-color: #232323;
+  margin-bottom: 10px;
+  padding:  20px; 
+  
+}
+
+
+.hero-stat h3{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #ececec;
+  margin: 0px 0px 8px;
+}
+
+.hero-stat p{
+  font-size: 14px;
+  font-weight: 150px;
+  font-family: "Roboto", sans-serif ;
+  width: 75%;
+  margin: 0px 0px 8px;
+  
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  position: relative;
+  gap: 30px;
+}
+.info-item span {
+  display: block;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.info-item h3 {
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 0;
+ 
+}
+.about-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 13px;
+}
+
+.btn-lat {
+  background: #e6e2d9;
+  font-size: 12px;
+  color: #111;
+  padding: 20px 30px;
+  border-radius: 12px;
+  font-family: "Roboto",sans-serif;
+  text-decoration: none;
+  align-items: normal;
+  font-weight: 600;
+  gap: 20px;
+
+  
+}
+.btn-lat:hover{
+  background-color:#e6e2d9;
+  color:#e6e2d9;
+
+}
+.btn-light i{
+  color: #444444;
+  padding: 15px;
+}
+
+
+.btn-dark {
+  border: 2px solid #444444;
+  font-size:16px ;
+  font-family: "Roboto", sans-serif;
+  padding:15px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+
+}
+.btn-dark i{
+  color: #444444;
+  padding: 10px;
+}
+
+.btn-dark:hover {
+   background-color:#e6e2d9;
+  color:#e6e2d9;
+
+}
+
+.stats-container{
+background: #232323;
+height: 200px;
+width: 87%;
+display: flex;
+padding: 50px;
+justify-content: center;
+gap: 30px;
+}
+.stat-card{
+  background: #2c2c2c;
+  padding-left: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  color: #ffffff;
+
+}
+.icon-stat{
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+
+}
+.icon-stat{
+  width: 80%;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 30px;
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  background: #2c2c2c;
+  margin-bottom: 10px;
+  line-height: 1;
+  font-family: "Ubuntu" sans-serif;
+ 
+}
+.meta-stat{
+  background-color: rgb(255, 255, 255,0.2);
+  color: white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: #ffffff;
+}
+.emoji-stat{
+  background-color: color-mix(in srgb, #ff7e00, transparent 90%);
+  color: #ff7e00;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+
+}
+.emoji-client{
+  background-color: color-mix(in srgb, #00c875,transparent 90%);
+  color: #00c875;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+
+}
+.client-stat{
+  background-color: color-mix(in srgb, #e83e8c,transparent 90%);
+  color: #e83e8c;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+
+}
+.stat-card p{
+  font-size: 15.6px;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  font-weight: 500;
+  color: #ececec;
+}
+.stat-card h2{
+  font-size: 35px;
+  font-family:"Ubuntu", sans-serif;
+  margin: 0;
+  font-weight: 500;
 }
 
