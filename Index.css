@@ -277,7 +277,7 @@ nav ul li i {
 
 .media-hero{
   width: 40%;
-  height: 500px;
+  height: 480px;
   background:#232323;
   border-radius: 2.5rem;
   justify-items: center;
@@ -338,16 +338,17 @@ nav ul li i {
 
 }
 .info-media{
-  line-height: 2.6;
-  width: 170px;
-  height: 30px;
+  display: flex;
+  width: 179px;
   font-size: 10px;
-  font-family: "Roboto" sans-serif;
-  top: 200px;
-  margin-bottom: 1.8rem;
-  margin-top: 10px;
-  background-color: #232323;
-  color: #ececec;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  border: 1px solid;
+  
 
 }
 .info-media i{
@@ -374,12 +375,12 @@ nav ul li i {
   margin-top: 20px;
   border-radius: 12px;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 12px;
   font-family: "Roboto", sans-serif;
   color: 2px solid goldenrod;
 }
 .about-social {
-  font-size: 24px;
+  font-size: 22px;
   font-family: "Ubuntu", sans-serif;
   color: #ffffff;
   font-weight: 700;
@@ -387,17 +388,17 @@ nav ul li i {
 
 }
 .social{
-  font-size: 13px;
+  font-size: 14px;
   line-height: 22px;
   color: #ececec;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   margin: 0px 0px 24px;
   font-family: "Roboto", sans-serif;
   gap: 20px;
   
 }
 .social-about{
-  font-size: 13px;
+  font-size: 14px;
   line-height: 22px;
   color: #ececec;
   margin-bottom: 2rem;
@@ -412,26 +413,29 @@ nav ul li i {
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 30px;
-  max-width: 700px;
+  max-width: 600px;
   border-radius: 20px;
-  background-color: #1A1C1F;
-  margin-bottom: 30px;
+  background-color: #232323;
+  margin-bottom: 10px;
+  padding:  20px; 
   
 }
 
 
 .hero-stat h3{
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   color: #ececec;
+  margin: 0px 0px 8px;
 }
 
 .hero-stat p{
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 150px;
   font-family: "Roboto", sans-serif ;
-  width: 70%;
+  width: 75%;
+  margin: 0px 0px 8px;
   
 }
 
@@ -444,15 +448,15 @@ nav ul li i {
 }
 .info-item span {
   display: block;
-  font-size: 12px;
-  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 12px;
   font-weight: 500;
 }
 
 .info-item h3 {
-  font-size: 10px;
+  font-size: 12px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -462,6 +466,7 @@ nav ul li i {
 .about-buttons {
   display: flex;
   gap: 10px;
+  margin-left: 13px;
 }
 
 .btn-lat {
@@ -475,20 +480,24 @@ nav ul li i {
   align-items: normal;
   font-weight: 600;
   gap: 20px;
+
   
 }
 .btn-lat:hover{
   background-color:#e6e2d9;
-   color:#e6e2d9;
+  color:#e6e2d9;
 
 }
 .btn-light i{
-  padding: 10px;
+  color: #444444;
+  padding: 15px;
 }
 
 
 .btn-dark {
-  border: 2px solid #444;
+  border: 2px solid #444444;
+  font-size:16px ;
+  font-family: "Roboto", sans-serif;
   padding:15px;
   border-radius: 12px;
   text-decoration: none;
@@ -497,13 +506,14 @@ nav ul li i {
 
 }
 .btn-dark i{
-  color: #444;
+  color: #444444;
   padding: 10px;
 }
 
 .btn-dark:hover {
-  background-color: #232323;
-  color: white;
+   background-color:#e6e2d9;
+  color:#e6e2d9;
+
 }
 
 
@@ -543,18 +553,21 @@ nav ul li i {
   font-size: 38px;
   font-family: "Ubuntu",sans-serif;
   font-weight: 700;
-  margin: 10px 0;
-  color: #fff;
+  margin: 10px;
+  color: #ececec;
 }
-.icon-stat p{
-  font-size: 18px;
-  font-family: "Ubuntu",sans-serif;
-  margin: 0;
-  font-weight: 500;
+.stat-card p{
+    color: #ececec;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+    font-family: "Ubuntu",sans-serif;
+    opacity: 0.8;
 }
+  
 .meta-stat{
   background-color: color-mix(in #ff7e, color percentage, color percentage);
-  color: white;
+  color: #ececec;
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -619,5 +632,9 @@ nav ul li i {
   background: #e6e2d9;
   margin-top: 40px;
   margin-left: 20px;
-  border: solid 3px;
+
 }
+
+
+
+
