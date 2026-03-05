@@ -1020,5 +1020,114 @@ gap: 30px;
     margin-bottom: 6px;
  }
 
+.portfolio {
+    background: #1E1F22;
+    color: #ffffff;
+    padding: 100px 0;
+    font-family: "Roboto", sans-serif;
+}
+.portfolio-wrapper {
+    width: 85%;
+    margin: auto;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.portfolio-header span {
+    width: 60px;
+    height: 2px;
+    background: #ffffff;
+    
+    
+}
+
+.portfolio-header h2 {
+    margin: 0 20px;
+    font-size: 32px;
+    color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
 
 
+.portfolio-text {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 70px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+.portfolio-container {
+    display: flex;
+    gap: 60px;
+}
+
+.portfolio-sidebar {
+    background: #18191C;
+    padding: 30px;
+    border-radius: 14px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.portfolio-sidebar button {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    padding: 12px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.portfolio-sidebar button:hover {
+    background: #2a2a2a;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    transform: translateX(5px);
+}
+
+.portfolio-sidebar .active {
+    background-color: #232323;
+    color: #ffffff;
+    font-weight: 600;
+} 
+.portfolio-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.portfolio-card {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background: #18191C;
+  
+  
+}
+.portfolio-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+   
+}
+.portfolio-card::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+    
+}
