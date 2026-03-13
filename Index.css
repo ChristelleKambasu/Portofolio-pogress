@@ -21,7 +21,6 @@ header {
   position: fixed;
   
 }
-
 .container-social-media{
   display: flex;
   justify-content: space-evenly;
@@ -158,8 +157,6 @@ nav ul li i {
   margin-left: 5px;
 
 }
-
-
  p {
     font-size: 16px;
     color:  #ECECEC96;
@@ -264,7 +261,6 @@ nav ul li i {
   border-radius: 60%;
   background-color: color-mix(in srgb, #ffffff, transparent 90%);
 
-
 }
 .bi-chevron-down:hover{
   background-color: #ececec;
@@ -276,8 +272,6 @@ nav ul li i {
  
 
 }
-
-
 .media-hero{
   width: 40%;
   height: 480px;
@@ -351,8 +345,6 @@ nav ul li i {
   border-radius: 0.75rem;
   text-decoration: none;
   border: 1px solid;
-  
-
 }
 .info-media i{
   margin: 0;
@@ -365,8 +357,6 @@ nav ul li i {
   color: #1A1C1F;
 
 }
-
-
 .about-hero {
   width: 440px;
   height:800px;
@@ -380,7 +370,7 @@ nav ul li i {
   font-weight: 600;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
-  color: 2px solid goldenrod;
+
 }
 .about-social {
   font-size: 22px;
@@ -397,8 +387,7 @@ nav ul li i {
   margin-bottom: 0;
   margin: 0px 0px 24px;
   font-family: "Roboto", sans-serif;
-  gap: 20px;
-  
+  gap: 20px; 
 }
 .social-about{
   font-size: 14px;
@@ -407,10 +396,7 @@ nav ul li i {
   margin-bottom: 2rem;
   margin: 0px 0px 24px;
   font-family: "Roboto", sans-serif;
-
-
 }
-
 .hero-stat{
   display: flex;
   justify-content: space-between;
@@ -421,10 +407,7 @@ nav ul li i {
   background-color: #232323;
   margin-bottom: 10px;
   padding:  20px; 
-  
 }
-
-
 .hero-stat h3{
   font-size: 30px;
   font-weight: 500;
@@ -432,16 +415,13 @@ nav ul li i {
   color: #ececec;
   margin: 0px 0px 8px;
 }
-
 .hero-stat p{
   font-size: 14px;
   font-weight: 150px;
   font-family: "Roboto", sans-serif ;
   width: 75%;
   margin: 0px 0px 8px;
-  
 }
-
 .info-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -457,21 +437,18 @@ nav ul li i {
   margin-bottom: 12px;
   font-weight: 500;
 }
-
 .info-item h3 {
   font-size: 12px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   margin: 0;
- 
 }
 .about-buttons {
   display: flex;
   gap: 10px;
   margin-left: 13px;
 }
-
 .btn-lat {
   background: #e6e2d9;
   font-size: 12px;
@@ -483,20 +460,15 @@ nav ul li i {
   align-items: normal;
   font-weight: 600;
   gap: 20px;
-
-  
 }
 .btn-lat:hover{
   background-color:#e6e2d9;
   color:#e6e2d9;
-
 }
 .btn-light i{
   color: #444444;
   padding: 15px;
 }
-
-
 .btn-dark {
   border: 2px solid #444444;
   font-size:16px ;
@@ -506,7 +478,6 @@ nav ul li i {
   text-decoration: none;
   color: white;
   font-weight: 500;
-
 }
 .btn-dark i{
   color: #444444;
@@ -518,7 +489,6 @@ nav ul li i {
   color:#e6e2d9;
 
 }
-
 .stats-container{
 background: #232323;
 height: 200px;
@@ -535,13 +505,11 @@ gap: 30px;
   text-align: center;
   width: 300px;
   color: #ffffff;
-
 }
 .icon-stat{
   font-size: 20px;
   margin-bottom: 0px;
   margin-top: 10px;
-
 }
 .icon-stat{
   width: 80%;
@@ -557,7 +525,6 @@ gap: 30px;
   margin-bottom: 10px;
   line-height: 1;
   font-family: "Ubuntu" sans-serif;
- 
 }
 .meta-stat{
   background-color: rgb(255, 255, 255,0.2);
@@ -638,7 +605,6 @@ gap: 30px;
   margin: 10px;
 
 }
-
 .section-skills {
     padding: 80px 0;
     background: #1c1c1c;
@@ -647,7 +613,6 @@ gap: 30px;
     text-align: center;
     
 }
-
 .section-title {
     font-size: 32px;
     font-family: "Ubuntu", sans-serif;
@@ -655,9 +620,7 @@ gap: 30px;
     margin-bottom: 0;
     position: relative;
     display: inline-block;
-  
 }
-
 .section-title::before,
 .section-title::after {
     content: "";
@@ -667,7 +630,6 @@ gap: 30px;
     height: 2px;
     background: #ffffff;
 }
-
 .section-title::before {
     right: 100%;
     margin-right: 15px;
@@ -677,8 +639,6 @@ gap: 30px;
     left: 100%;
     margin-left: 15px;
 }
-
-
 .intro-section {
     max-width: 600px;
     margin: 20px auto 60px;
@@ -694,15 +654,12 @@ gap: 30px;
     text-align: left;
     padding: 10px;
 }
-
 .skills-column {
     flex: 1;
     min-width: 300px;
     background: #232323;
-    padding: 10px;
-    
+    padding: 10px; 
 }
-
 .skills-heading {
     font-size: 22px;
     font-family: "Ubuntu", sans-serif;
@@ -711,7 +668,6 @@ gap: 30px;
     position: relative;
   
 }
-
 .skills-heading::after {
     content: "";
     width: 40px;
@@ -722,13 +678,9 @@ gap: 30px;
     bottom: -10px;
 }
 
-
 .skill {
     margin-bottom: 35px;
-  
-    
 }
-
 .skill-info {
     display: flex;
     justify-content: space-between;
@@ -737,22 +689,18 @@ gap: 30px;
     font-weight: 500;
   
 }
-
 .progress-bar{
     width: 100%;
     height: 6px;
     background: rgba(255,255,255,0.15);
     border-radius: 50px;
 }
-
 .progress {
     height: 100%;
     background: #ffffff;
     border-radius: 50px;
     
 }
-
-
 .resume {
     background: #1E1F22;
     color: #ffffff;
@@ -779,13 +727,11 @@ gap: 30px;
     margin-bottom: 25px;
     
 }
-
 .resume-header span {
     width: 60px;
     height: 2px;
     background: white;   
 }
-
 .resume-header h2 {
     margin: 0 20px;
     font-size: 34px;
@@ -793,8 +739,6 @@ gap: 30px;
     color: #ffff;
     letter-spacing: 1px;
 }
-
-
 .resume-text {
     text-align: center;
     max-width: 750px;
@@ -803,8 +747,6 @@ gap: 30px;
     font-size: 16px;
     color: #ffff;
 }
-
-
 .resume-container {
     width: 85%;
     margin: auto;
@@ -831,7 +773,6 @@ gap: 30px;
     font-family: "Roboto", sans-serif;
     color: #ffffff;
 }
-
 .resume-left{
   background: #232323;
 
@@ -842,8 +783,6 @@ gap: 30px;
     margin-bottom: 20px;
     position: relative;
 }
-
-
 .contact-card p {
     font-size: 12px;
     font-family: "Roboto", sans-serif;
@@ -872,41 +811,31 @@ gap: 30px;
   margin: 0px 0px 16px;
 
 }
-
 .contact i {
    color: #ffff;
     margin-right: 14px;
     font-size: 14px;
 }
-
-
 .skills{
-    margin-bottom: 25px;
-  
-    
+    margin-bottom: 25px;  
 }
-
 .skill-top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 8px;
     font-size: 14px;
     font-weight: 500;
-  
 }
-
 .fill-top {
     width: 100%;
     height: 6px;
     background: rgba(255,255,255,0.15);
     border-radius: 50px;
 }
-
 .progress-fill{
     height: 100%;
     background: #ffffff;
-    border-radius: 50px;
-    
+    border-radius: 50px; 
 }
 .resume-right {
     position: relative;
@@ -916,13 +845,11 @@ gap: 30px;
   font-family: "Roboto", sans-serif;
   color: #ffff;
   margin: 0px 0px 24px;
-
 }
 .resume-right i{
   font-size: 24px;
   margin-right: 26px;
   margin: 10px;
-  
 }
 .timeline-item h4{
   font-size: 14px ;
@@ -943,7 +870,6 @@ gap: 30px;
   margin-right: 25px;
   color: #ffff;
   margin: 0px 0px 16px;
-  
 }
 .timeline-item i{
   font-size: 12px;
@@ -967,7 +893,6 @@ gap: 30px;
     font-weight: 700;
     position: relative;
 }
-
 .timeline-item {
     position: relative;
     padding-left: 30px;
@@ -975,11 +900,9 @@ gap: 30px;
     border-left: 2px solid #333;
 
 }
-
 .timeline-item:hover {
     border-left: 2px solid ;
 }
-
 .timeline-item::before {
     content: "";
     position: absolute;
@@ -1003,7 +926,6 @@ gap: 30px;
     display: block;
     margin: 6px 0;
 }
-
 .company {
     font-weight: 500;
     color: #bbbbbb;
@@ -1030,14 +952,12 @@ gap: 30px;
     width: 85%;
     margin: auto;
 }
-
 .portfolio-header {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
 }
-
 .portfolio-header span {
     width: 60px;
     height: 2px;
@@ -1045,7 +965,6 @@ gap: 30px;
     
     
 }
-
 .portfolio-header h2 {
     margin: 0 20px;
     font-size: 32px;
@@ -1053,8 +972,6 @@ gap: 30px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
 }
-
-
 .portfolio-text {
     text-align: center;
     max-width: 750px;
@@ -1067,7 +984,6 @@ gap: 30px;
     display: flex;
     gap: 60px;
 }
-
 .portfolio-sidebar {
     background: #18191C;
     padding: 30px;
@@ -1078,7 +994,6 @@ gap: 30px;
     gap: 15px;
     
 }
-
 .portfolio-sidebar button {
     background: transparent;
     border: none;
@@ -1092,14 +1007,12 @@ gap: 30px;
     font-weight: 500;
     
 }
-
 .portfolio-sidebar button:hover {
     background: #2a2a2a;
     background-color: #2a2a2a;
     color: #ffffff;
     transform: translateX(5px);
 }
-
 .portfolio-sidebar .active {
     background-color: #232323;
     color: #ffffff;
@@ -1116,9 +1029,7 @@ gap: 30px;
     width: 100%;
     height: 300px;
     border-radius: 20px;
-    background: #18191C;
-  
-  
+    background: #18191C; 
 }
 .portfolio-card img {
     width: 100%;
@@ -1129,33 +1040,25 @@ gap: 30px;
 .portfolio-card::after {
     content: "";
     position: absolute;
-    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
-    
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); 
 }
-
-
 .services{
     background:#1e1f22;
     color:#ffff;
     padding:70px 0;
     font-family: "Roboto", sans-serif;
 }
-
-
-
 .services-header{
     display:flex;
     justify-content:center;
     align-items:center;
     gap:15px;
 }
-
 .services-header span{
     width:40px;
     height:2px;
     background:#ffffff;
 }
-
 .services-header h2{
     font-size:28px;
     font-family: "Ubuntu", sans-serif;
@@ -1170,7 +1073,6 @@ gap: 30px;
     font-family: "Roboto", sans-serif;
     color:#ffff;
 }
-
 .services-intro{
     width:92%;
     margin:50px auto;
@@ -1178,7 +1080,6 @@ gap: 30px;
     justify-content:space-between;
     gap:30px;
 }
-
 .services-left h1{
     font-size:34px;
     font-family: "Ubuntu", sans-serif;
@@ -1223,7 +1124,7 @@ gap: 30px;
   
 }
 .service-card:hover{
-    background-color:#99999999;
+    background-color:#2a2a2a;
 }
 .icon{
     width: 60px;
@@ -1238,21 +1139,174 @@ gap: 30px;
     background-color:#2a2a2a;
     color: #ffffff;
     margin-bottom:12px;
+  
 }
-.icon:hover{
-  background: #555555;
-}
-
 .service-card h3{
     font-size:24px;
     font-family: "Ubuntu", sans-serif;
     color: #ffffff;
     margin-bottom:10px; 
 }
-
 .service-card p{
     font-size:14px;
     font-family: "Roboto", sans-serif;
     color:#ffffff;
     line-height:1.5;
+}
+
+
+
+
+
+
+
+.testimonials{
+    background:#1f2023;
+    padding:100px 0;
+    color:#ffffff;
+     
+}
+
+.testimonials-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    margin-bottom:10px;
+}
+
+.testimonials-header span{
+    width:60px;
+    height:2px;
+    background:#ffffffff;
+}
+
+.testimonials-header h2{
+    font-family: "Ubuntu", sans-serif;
+    font-size:30px;
+    color: #ffff;
+    margin-bottom:10px;
+
+}
+
+.testimonials-subtitle{
+    text-align:center;
+    color:#ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-bottom:70px;
+   
+}
+
+.testimonials-container{
+    width:100%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:35px;
+    align-items:start;
+    
+
+}
+
+.testimonial-card{
+    background:#2a2b2f;
+    padding:28px;
+    border-radius:16px;
+    border:1px solid #3a3b3f;
+    position:relative;
+    
+.quote{
+    position:absolute;
+    top:-15px;
+    left:25px;
+    background:#3a3b3f;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+   
+}
+
+}
+
+.testimonial-card p{
+    color:#ddd;
+    line-height:1.7;
+    margin-bottom:25px;
+    font-size:13px;
+    font-family: "Roboto", sans-serif;
+  
+}
+
+.testimonial-user{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    
+    
+}
+.testimonial-user img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+.Oracle-testimonial{
+  padding:5px;
+  margin: 20px 0;
+  border-top: 1px solid #ffffffff;
+  opacity: 0.2;
+
+}
+
+.testimonial-user h4{
+    font-size:11px;
+    font-family: "Ubuntu", sans-serif;
+    margin:0px 0px 4px;
+   
+}
+
+.testimonial-user span{
+    font-size:10px;
+    font-family: "Roboto", sans-serif;
+    color:#aaaaaa;
+  
+}
+
+
+
+.testimonial-card:nth-child(1){
+    min-height:220px;
+   
+}
+
+.testimonial-card:nth-child(2){
+    min-height:290px;
+    margin-top:60px;
+   
+}
+
+.testimonial-card:nth-child(3){
+    min-height:200px;
+    margin-top:36px;
+
+}
+
+.testimonial-card:nth-child(4){
+    min-height:200px;
+}
+
+.testimonial-card:nth-child(5){
+    min-height:260px;
+    margin-top:35px;
+     
+}
+
+.testimonial-card:nth-child(6){
+    min-height:200px;
+    margin-top:20px;
+  
 }
