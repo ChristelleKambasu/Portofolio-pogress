@@ -17,7 +17,7 @@ header {
   padding: 8px;
   font-family: "Nunito",sans-serif;
   border-radius: 14px;
-  border: 1.6px solid #ECECEC96;
+  border: 1px solid color-mix(in srgb,#ffffff , transparent 80%);
   position: fixed;
   
 }
